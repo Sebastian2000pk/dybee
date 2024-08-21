@@ -43,9 +43,9 @@ Estamos comprometidos a mejorar continuamente Dybee. Algunas de las próximas ca
 
 Dybee es un proyecto abierto a la comunidad. Si tienes ideas, sugerencias o quieres contribuir al desarrollo, ¡nos encantaría que te unieras a nosotros! 
 
-## 📧 **Contacto**
+<!-- ## 📧 **Contacto** -->
 
-Si tienes preguntas, comentarios o necesitas soporte, no dudes en contactarnos en [soporte@dybee.com](mailto:soporte@dybee.com).
+<!-- Si tienes preguntas, comentarios o necesitas soporte, no dudes en contactarnos en [soporte@dybee.com](mailto:soporte@dybee.com). -->
 
 ---
 
