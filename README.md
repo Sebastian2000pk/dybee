@@ -1,53 +1,60 @@
 # Dybee
 
-**Dybee** es la aplicación definitiva para el aprendizaje personalizado y efectivo. Diseñada para adaptarse a tu ritmo de vida, Dybee te ofrece una experiencia de estudio moderna, centrada en tus necesidades y conocimientos. Ya sea que estés preparándote para un examen, aprendiendo un nuevo idioma, o profundizando en un tema de interés, Dybee está aquí para ayudarte a alcanzar tus metas.
+**Dybee** es una aplicación innovadora actualmente en desarrollo, diseñada para revolucionar la forma en que las personas aprenden y estudian. Nuestro objetivo es crear una plataforma que se adapte al tiempo y al nivel de conocimientos de cada usuario, proporcionando un entorno de aprendizaje personalizado y efectivo.
 
-## 🧠 **Introducción**
+## 🛠 **Estado del Proyecto**
 
-En un mundo en constante cambio, la capacidad de aprender de manera efectiva y rápida es más importante que nunca. **Dybee** nace de la necesidad de una plataforma que no solo te enseñe, sino que también entienda cómo aprendes. Nuestro objetivo es brindarte un espacio donde puedas estudiar cualquier tema de manera flexible, sin importar tu nivel de conocimiento previo. 
+Este proyecto está en sus primeras etapas de desarrollo. Estamos construyendo la infraestructura y definiendo las características clave que harán de **Dybee** una herramienta esencial para el aprendizaje moderno.
 
-Con Dybee, cada usuario puede:
+## 🧠 **Visión del Proyecto**
 
-- **Personalizar su plan de estudio:** Diseña un plan que se ajuste a tu tiempo y metas.
-- **Aprovechar métodos modernos de aprendizaje:** Utiliza técnicas innovadoras para aprender de forma más eficiente.
-- **Medir su progreso:** Realiza un seguimiento de tu avance y ajusta tu plan según sea necesario.
+En **Dybee**, creemos que el aprendizaje debe ser flexible, accesible y adaptado a las necesidades individuales de cada persona. Nuestra misión es desarrollar una aplicación que permita a los usuarios:
 
-## 🚀 **Características Principales**
+- **Estudiar cualquier tema:** Desde ciencias hasta humanidades, ofreciendo recursos adaptados a diferentes niveles de conocimiento.
+- **Personalizar su plan de estudio:** Creando itinerarios que se ajusten a su tiempo disponible y metas específicas.
+- **Aprovechar métodos modernos de aprendizaje:** Utilizando técnicas interactivas y basadas en evidencia para hacer que el aprendizaje sea más eficiente y entretenido.
 
-- **Aprendizaje Personalizado:** Dybee se adapta a tu estilo de aprendizaje y nivel de conocimiento, asegurando que cada lección sea relevante y desafiante.
+## 🚀 **Características Planeadas**
+
+Aunque el desarrollo está en curso, tenemos una serie de características clave que estamos trabajando para implementar:
+
+- **Aprendizaje Adaptativo:** La aplicación ajustará el contenido y la dificultad según el progreso y las preferencias del usuario.
   
-- **Planificación de Estudio:** Crea y ajusta tu plan de estudio de acuerdo a tu disponibilidad y objetivos. Dybee te recuerda cuándo es el mejor momento para estudiar, asegurando que aproveches al máximo tu tiempo.
+- **Planificación Personalizada:** Dybee permitirá a los usuarios crear y ajustar planes de estudio que se alineen con sus objetivos y horarios.
 
-- **Métodos Modernos:** Aprende a través de videos interactivos, quizzes, juegos de memoria, y más. Dybee utiliza las últimas investigaciones en educación para hacer que el aprendizaje sea divertido y efectivo.
+- **Métodos de Aprendizaje Modernos:** Implementaremos técnicas innovadoras, como quizzes interactivos, juegos de memoria y aprendizaje basado en inteligencia artificial.
 
-- **Evaluaciones y Feedback:** Mide tu progreso con evaluaciones periódicas y recibe retroalimentación instantánea. Identifica tus fortalezas y áreas de mejora para optimizar tu proceso de aprendizaje.
+- **Evaluación Continua:** Los usuarios podrán medir su progreso a través de evaluaciones periódicas y recibir retroalimentación para mejorar su aprendizaje.
 
-- **Base de Conocimientos Diversa:** Accede a una amplia variedad de temas, desde ciencias hasta humanidades, todo en un solo lugar.
+- **Comunidad de Estudio:** Fomentaremos un espacio donde los usuarios puedan interactuar, compartir recursos y apoyarse mutuamente en su aprendizaje.
 
-- **Estudio Colaborativo:** Conéctate con otros estudiantes, comparte recursos y participa en discusiones para enriquecer tu experiencia de aprendizaje.
+## 🎯 **Objetivos**
 
-## 🎯 **Nuestra Misión**
+Nuestro objetivo con **Dybee** es ofrecer una plataforma que:
 
-En **Dybee**, creemos que el aprendizaje no debería ser una tarea abrumadora. Nuestra misión es hacer que el aprendizaje sea accesible, efectivo, y personalizado para cada usuario. Queremos empoderarte para que puedas alcanzar tus metas académicas y profesionales, sin importar las barreras de tiempo o conocimientos previos.
+1. **Empodere a los usuarios** a alcanzar sus metas de aprendizaje de manera efectiva.
+2. **Proporcione una experiencia de aprendizaje personalizada** y flexible, que se ajuste a los tiempos y necesidades de cada persona.
+3. **Incorpore métodos modernos** que hagan del aprendizaje una actividad atractiva y motivante.
 
-## 📈 **Próximos Pasos**
+## 📈 **Roadmap**
 
-Estamos comprometidos a mejorar continuamente Dybee. Algunas de las próximas características en las que estamos trabajando incluyen:
+A medida que avanzamos en el desarrollo, aquí están algunos hitos clave que planeamos alcanzar:
 
-- **Integración con calendarios personales** para una planificación de estudio aún más sincronizada.
-- **Modos offline** para que puedas aprender sin conexión a internet.
-- **Gamificación avanzada** con recompensas y desafíos para mantenerte motivado.
-- **Aprendizaje basado en IA** para recomendaciones de contenido aún más personalizadas.
+1. **Definición del MVP (Producto Mínimo Viable)**
+2. **Desarrollo de la infraestructura backend y frontend**
+3. **Implementación de las primeras funcionalidades básicas**
+4. **Pruebas beta cerradas con un grupo selecto de usuarios**
+5. **Lanzamiento público de la versión inicial de Dybee**
 
 ## 👥 **Contribuir**
 
-Dybee es un proyecto abierto a la comunidad. Si tienes ideas, sugerencias o quieres contribuir al desarrollo, ¡nos encantaría que te unieras a nosotros! 
+Si te apasiona la educación y la tecnología, y quieres ser parte del desarrollo de **Dybee**, ¡te invitamos a unirte! Estamos abiertos a contribuciones en desarrollo, diseño, pruebas y más.
 
 <!-- ## 📧 **Contacto** -->
 
-<!-- Si tienes preguntas, comentarios o necesitas soporte, no dudes en contactarnos en [soporte@dybee.com](mailto:soporte@dybee.com). -->
+<!-- Para más información, colaborar, o si tienes preguntas, puedes contactarnos en [soporte@dybee.com](mailto:soporte@dybee.com). -->
 
 ---
 
-¡Gracias por elegir Dybee para tu viaje de aprendizaje! Estamos emocionados de ayudarte a alcanzar nuevas alturas en tu educación.
+**Dybee** está en camino de transformar el aprendizaje. ¡Gracias por acompañarnos en este emocionante viaje!
 
