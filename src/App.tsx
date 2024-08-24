@@ -23,7 +23,10 @@ function App() {
     <>
       {tasks.map((task: any) => {
         return (
-          <div key={task.sessionId} style={{ border: "1px solid black" }}>
+          <div
+            key={task.sessionId}
+            style={{ border: "1px solid black", margin: "1rem" }}
+          >
             <h3>{task.sessionId}</h3>
             <p>{task.timeAllocated} minutos</p>
           </div>
