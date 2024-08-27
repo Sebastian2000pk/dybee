@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
-import "./App.css";
+import ReactMarkdown from "react-markdown";
+import remarkMath from "remark-math";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 import { VITE_API_URL } from "./config";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const [concepts, setConcepts] = useState<string>("");
 
   const getTasks = async () => {
     const token = localStorage.getItem("token");
@@ -14,24 +17,22 @@ function App() {
       },
     });
     const data = await response.json();
-    setTasks(data.tasks);
+    console.log("🥑 ~ getTasks ~ data:", data);
+    setConcepts(data.concepts);
   };
   useEffect(() => {
     getTasks();
   }, []);
   return (
     <>
-      {tasks.map((task: any) => {
-        return (
-          <div
-            key={task.sessionId}
-            style={{ border: "1px solid black", margin: "1rem" }}
-          >
-            <h3>{task.sessionId}</h3>
-            <p>{task.timeAllocated} minutos</p>
-          </div>
-        );
-      })}
+      <div style={{ textAlign: "left", padding: "1rem 2rem" }}>
+        <ReactMarkdown
+          remarkPlugins={[remarkMath]}
+          rehypePlugins={[rehypeKatex]}
+        >
+          {concepts}
+        </ReactMarkdown>
+      </div>
     </>
   );
 }
