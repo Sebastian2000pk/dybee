@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import rehypeKatex from "rehype-katex";
 import "katex/dist/katex.min.css";
+import axios from "axios";
 
 import { VITE_API_URL } from "./config";
 
@@ -13,23 +14,24 @@ function App() {
 
   const completeSession = async () => {
     const token = localStorage.getItem("token");
-    await fetch(`${VITE_API_URL}/sessions/complete`, {
-    // await fetch(`http://localhost:3000/api/sessions/today`, {
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-      method: "POST",
-      body: JSON.stringify({
+    await axios.post(
+      `${VITE_API_URL}/sessions/complete`,
+      {
         sessionId,
         studyPlanId,
-      }),
-    });
+      },
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      }
+    );
   };
 
   const getTasks = async () => {
     const token = localStorage.getItem("token");
     const response = await fetch(`${VITE_API_URL}/sessions/today`, {
-    // const response = await fetch(`http://localhost:3000/api/sessions/today`, {
+      // const response = await fetch(`http://localhost:3000/api/sessions/today`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
