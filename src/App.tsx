@@ -28,8 +28,8 @@ function App() {
 
   const getTasks = async () => {
     const token = localStorage.getItem("token");
-    // const response = await fetch(`${VITE_API_URL}/tasks/today`, {
-    const response = await fetch(`http://localhost:3000/api/sessions/today`, {
+    const response = await fetch(`${VITE_API_URL}/sessions/today`, {
+    // const response = await fetch(`http://localhost:3000/api/sessions/today`, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
