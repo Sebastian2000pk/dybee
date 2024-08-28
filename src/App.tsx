@@ -13,7 +13,7 @@ function App() {
 
   const completeSession = async () => {
     const token = localStorage.getItem("token");
-    await fetch(`${VITE_API_URL}/sessions/today`, {
+    await fetch(`${VITE_API_URL}/sessions/complete`, {
     // await fetch(`http://localhost:3000/api/sessions/today`, {
       headers: {
         Authorization: `Bearer ${token}`,
